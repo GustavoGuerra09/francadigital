@@ -1,0 +1,17 @@
+body{
+    background-color: darkcyan;
+}
+
+
+p{
+    background-color:red;
+    color: blue;
+}
+.cor{
+    color: brown;
+    background-color: white;
+}
+#corUnica{
+    color: gold;
+    background-color: indianred;
+}
