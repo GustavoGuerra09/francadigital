@@ -12,3 +12,13 @@ h2{
     color: mediumpurple;
 
 }
+.conteudo{
+    display: flex;
+    align-items: center; /*texto na vertical*/
+    justify-content: center;/*horizontal*/
+    text-align: center;/*centraliza o texto*/
+    min-height: 100px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+}
