@@ -1,7 +1,7 @@
 
-{
---cor-primaria: #63acffff;
---cor-fundo: #0f172a;
+:root {
+--cor-primaria: rgb(78, 15, 114);
+--cor-fundo: #6616ce;
 --cor-card: rgba(15, 23, 42, 0.72);
 --cor-texto: #e2e8f0;
 }
