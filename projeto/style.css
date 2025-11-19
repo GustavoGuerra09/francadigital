@@ -191,3 +191,23 @@ button:hover {
   border-left: 4px solid var(--cor-primaria);
   padding-left: 20px;
 }
+.btn-whatsapp{
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #6616ce;
+  color: #e2e8f0;
+  padding: 14px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 20px 35px rgba(140, 134, 255, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-whatsapp:hover{
+  transform: scale(1.07) translate(-2px);
+  box-shadow: 0 25px 45px rgba(140, 134, 255, 0.45);
+}
