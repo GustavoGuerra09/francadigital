@@ -126,6 +126,28 @@ button:hover {
   gap: 16px;
   box-shadow: 0 20px 30px rgba(15, 23, 42, 0.4);
   backdrop-filter: blur(8px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease ;
+}
+
+.card:hover{
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 45px rgba(108, 99, 255, 0.55);
+}
+
+.galeria:hover{
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 45px rgba(108, 99, 255, 0.55);
+}
+
+.galeria,
+.card,
+.chip {
+  transition: transform 0.3s ease, box shadow 0.3s ease;
+}
+
+img:hover{
+    transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 45px rgba(108, 99, 255, 0.55);
 }
 
 .card h2 {
@@ -159,6 +181,7 @@ button:hover {
   background-size: cover;
   background-position: center;
   transition: transform 0.4s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease ;
 }
 
 .galeria.ativa {
