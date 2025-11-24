@@ -18,6 +18,7 @@ body {
   color: var(--cor-texto);
   min-height: 100vh;
   overflow-x: hidden;
+      margin: 0;
 }
 
 .bg {
