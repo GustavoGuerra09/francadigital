@@ -93,13 +93,13 @@ img:hover{
     width: 96px;
     height:auto;
 }
-site-header{
+.site-header{
         width: 100%;
     box-sizing: border-box;
     padding: 20px 32px;
-    background-color: #fff;
+    background-color: rgb(45, 45, 156);
     display: flex;
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 24px rgba(26, 122, 47, 0.08);
     flex-wrap: wrap;/*corta os elementos se passar o tamanho*/
     align-items: center;
     justify-content: space-between;
@@ -109,7 +109,7 @@ site-header{
        font-size: 18px;
 
     margin: 0;
-    color: black;
+    color:white;
 }
 
 .site-nive a{
@@ -164,4 +164,7 @@ site-header{
  ;
     
     
+}
+.titulo-site{
+  color: white;
 }
