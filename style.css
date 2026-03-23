@@ -20,95 +20,7 @@ body {
       margin: 0;
 }
 
-.bg {
-  position: fixed;
-  inset: 0;
-  background: radial-gradient(
-      circle at 0% 20%,
-      rgba(0, 89, 255, 0.25),
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 10%,
-      rgba(56, 189, 248, 0.15),
-      transparent 50%
-    );
-  z-index: 0;
-  filter: blur(0.4px);
-}
 
-.orb {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: linear-gradient(
-    135deg,
-    rgba(140, 134, 255, 0.55),
-    rgba(0, 140, 255, 0.4)
-  );
-  animation: flutuar 9s ease-in-out infinite;
-  opacity: 0.6;
-}
-
-.orb-1 {
-  top: 12%;
-  left: 12%;
-  animation-delay: 0s;
-}
-.orb-2 {
-  top: 55%;
-  left: 70%;
-  animation-delay: 2.3s;
-}
-.orb-3 {
-  top: 78%;
-  left: 5%;
-  animation-delay: 4.1s;
-}
-
-@keyframes flutuar {
-  0%,
-  100% {
-    transform: translateY(0) scale(1);
-  }
-  50% {
-    transform: translateY(-18px) scale(1.05);
-  }
-}
-
-.page {
-  position: relative;
-  z-index: 1;
-  max-width: 960px;
-  margin: 48px auto;
-  padding: 0 20px 60px;
-}
-
-input[type="color"] {
-  padding: 12px 16px;
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(15, 23, 42, 0.55);
-  color: #f8fafc;
-  min-width: 220px;
-}
-
-button {
-  border: none;
-  border-radius: 16px;
-  padding: 12px 18px;
-  font-size: 1rem;
-  cursor: pointer;
-  background: rgba(0, 255, 149, 0.85);
-  color: #ffffff;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 15px 28px rgba(108, 99, 255, 0.3);
-}
 
 .grid {
   display: grid;
@@ -181,13 +93,13 @@ img:hover{
     width: 96px;
     height:auto;
 }
-site-header{
+.site-header{
         width: 100%;
     box-sizing: border-box;
     padding: 20px 32px;
-    background-color: #fff;
+    background-color: rgb(45, 45, 156);
     display: flex;
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 24px rgba(26, 122, 47, 0.08);
     flex-wrap: wrap;/*corta os elementos se passar o tamanho*/
     align-items: center;
     justify-content: space-between;
@@ -197,7 +109,7 @@ site-header{
        font-size: 18px;
 
     margin: 0;
-    color: black;
+    color:white;
 }
 
 .site-nive a{
@@ -252,4 +164,7 @@ site-header{
  ;
     
     
+}
+.titulo-site{
+  color: white;
 }
